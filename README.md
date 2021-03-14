@@ -1,16 +1,7 @@
 ember-textarea-auto-resize
 ==============================================================================
 
-[Short description of the addon.]
-
-
-Compatibility
-------------------------------------------------------------------------------
-
-* Ember.js v3.16 or above
-* Ember CLI v2.13 or above
-* Node.js v10 or above
-
+Ember modifier to automatically resize textareas (without jQuery).
 
 Installation
 ------------------------------------------------------------------------------
@@ -19,20 +10,9 @@ Installation
 ember install ember-textarea-auto-resize
 ```
 
-
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
-
-
-Contributing
-------------------------------------------------------------------------------
-
-See the [Contributing](CONTRIBUTING.md) guide for details.
-
-
-License
-------------------------------------------------------------------------------
-
-This project is licensed under the [MIT License](LICENSE.md).
+```
+<Textarea {{auto-resize}}/>
+```

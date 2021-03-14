@@ -1,11 +1,11 @@
 {
   "name": "ember-textarea-auto-resize",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "1.0.0",
+  "description": "Ember modifier to automatically resize textareas",
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": "https://github.com/deanylev/ember-textarea-auto-resize",
   "license": "MIT",
   "author": "",
   "directories": {
@@ -27,7 +27,8 @@
   },
   "dependencies": {
     "ember-cli-babel": "^7.23.1",
-    "ember-cli-htmlbars": "^5.3.2"
+    "ember-cli-htmlbars": "^5.3.2",
+    "ember-modifier": "^2.1.1"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
