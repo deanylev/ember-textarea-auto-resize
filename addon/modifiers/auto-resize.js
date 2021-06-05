@@ -8,8 +8,11 @@ export default modifier((element) => {
   element.style.boxSizing = 'border-box';
 
   const offset = element.offsetHeight - element.clientHeight;
-  element.addEventListener('input', () => {
+  const setHeight = () => {
     element.style.height = 'auto';
     element.style.height = `${element.scrollHeight + offset}px`;
-  });
+  };
+
+  setHeight();
+  element.addEventListener('input', setHeight);
 });
